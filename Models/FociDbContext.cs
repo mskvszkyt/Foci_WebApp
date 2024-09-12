@@ -9,6 +9,6 @@ namespace Foci_WebApp.Models
             
         }
 
-        public DbSet<Meccs> Meccsek {  get; set; }
+        public DbSet<Meccs> Meccsek { get; set; }
     }
 }
