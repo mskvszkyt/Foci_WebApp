@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foci_WebApp", "Foci_WebApp.csproj", "{4800D7A7-3E69-475E-AEBD-C949569AD0F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4800D7A7-3E69-475E-AEBD-C949569AD0F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4800D7A7-3E69-475E-AEBD-C949569AD0F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4800D7A7-3E69-475E-AEBD-C949569AD0F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4800D7A7-3E69-475E-AEBD-C949569AD0F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AF518340-53AC-4FE2-8152-977B2CFDC732}
+	EndGlobalSection
+EndGlobal
