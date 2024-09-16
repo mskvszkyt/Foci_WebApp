@@ -1,0 +1,82 @@
+﻿@page
+@using System.Collections
+@model Foci_WebApp.Pages.RangsorModel
+@{
+    ViewData["Title"] = "Ranglista";
+}
+
+
+<h1>Ranglista</h1>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Csapat[0].Helyezes)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Csapat[0].Nev)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Csapat[0].MeccsekSzama)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Csapat[0].Gyozelem)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Csapat[0].Dontetlen)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Csapat[0].Vereseg)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Csapat[0].Pont)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Csapat[0].LottGol)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Csapat[0].KapottGol)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Csapat)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Helyezes)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nev)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MeccsekSzama)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Gyozelem)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Dontetlen)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Vereseg)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Pont)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LottGol)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.KapottGol)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+
